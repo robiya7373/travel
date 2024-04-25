@@ -1,17 +1,12 @@
-import React from "react";
-import Header from "./components/Header/Header.jsx";
-import Main from "./components/Main/Main.jsx";
-import Footer from "./components/Footer/Footer.jsx";
-import Button from "./components/Button.jsx"
-function App() {
+import Container from './Container/Container'
+
+
+const App = () => {
   return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-      <Button />
-    </>
-  );
+    <div>
+      <Container/>
+    </div>
+  )
 }
 
-export default App;
+export default App
