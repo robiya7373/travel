@@ -1,6 +1,6 @@
 import CustomButton from "./CustomButton"; 
 import SunnyImage from "../../public/assets/sunny.png"; 
-const SunnyMainSection = () => { 
+const SunnySection = () => { 
   return (
     <div className="flex items-center mb-48 justify-between">
       <div className="">
@@ -21,4 +21,4 @@ const SunnyMainSection = () => {
   );
 }
 
-export default SunnyMainSection; 
+export default SunnySection; 

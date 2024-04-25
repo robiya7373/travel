@@ -1,16 +1,16 @@
 import Destination from "../Components/Destination"
 import MainWorldSection from "../Components/MainWorldSection"
 import StorySection from "../Components/StorySection"
-import SunnyMainSection from "../Components/SunnyMainSection"
-import TestimonialsSection from "../Components/TestimonialsSection"
+import SunnySection from "../Components/SunnySection"
+import StarSection from "../Components/StarSection"
 
 const Main = () => {
   return (
     <div>
         <MainWorldSection/>
         <Destination/>
-        <SunnyMainSection/>
-        <TestimonialsSection/>
+        <SunnySection/>
+        <StarSection/>
         <StorySection/>
     </div>
   )

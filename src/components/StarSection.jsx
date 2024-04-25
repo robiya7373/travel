@@ -1,7 +1,7 @@
 import { IoIosStar } from "react-icons/io";
 import PersonImage from '../../public/assets/photo.png'; 
 
-const TestimonialsSection = () => {
+const StarSection = () => {
   return (
     <div className="mb-40">
       <div>
@@ -33,4 +33,4 @@ const TestimonialsSection = () => {
   );
 };
 
-export default TestimonialsSection; 
+export default StarSection; 

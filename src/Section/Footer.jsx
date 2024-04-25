@@ -1,9 +1,9 @@
-import Footer from "../Components/FooterPage"
+import Footer from "../Components/FooterAnd"
 
 const FooterPage = () => {
   return (
     <div className="bg-[#F9F9FB]">
-      <FooterPage />
+      <FooterAnd />
     </div>
   );
 }

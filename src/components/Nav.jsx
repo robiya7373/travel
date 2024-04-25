@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../public/assets/logoimage.svg";
 import CustomButton from "./CustomButton";
 
-const Navbar = () => {
+const Nav = () => {
   const handleLoginClick = () => {};
 
   const handleRegisterClick = () => {};
@@ -38,4 +38,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;

@@ -1,7 +1,7 @@
 import Logo from "../../public/assets/logoimage.svg";
 import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
-const FooterPage = () => {
+const FooterAnd = () => {
   return (
     <div className="max-w-screen-xl mx-auto box-border">
       <div className="py-[70px] flex items-center justify-between">
@@ -80,4 +80,4 @@ const FooterPage = () => {
   );
 };
 
-export default FooterPage;
+export default FooterAnd;

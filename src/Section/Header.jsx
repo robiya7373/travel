@@ -1,10 +1,10 @@
-import Navbar from "../Components/Navbar"
+import Nav from "../Components/Nav"
 import HeroSection from "../Components/HeroSection"
 
 const Header = () => {
   return (
     <div>
-      <Navbar/>
+      <Nav/>
       <HeroSection/>
     </div>
   )
