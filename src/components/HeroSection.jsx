@@ -1,16 +1,16 @@
-import Line from "../../public/assets/line2.png";
-import HeroImg from "../../public/assets/header.png";
+import Line from "../../src/assets/line2.png";
+import HeroImg from "../../src/assets/header.png";
 
-import CustomButton from "./CustomButton"; 
+import Button from "./Button"; 
 
 const HeroSection = () => {
   return (
-    <div className="flex justify-between gap-20 mb-52">
+    <div className="flex justify-between gap-20 my-48">
       <div>
-        <h1 className="text-[#202336] text-[64px] font-bold mb-14">
+        <h1 className="text-[#202336] text-[60px] font-bold mb-12">
           Explore and <br /> Travel
         </h1>
-        <p className="text-[#202336] text-[22px] font-semibold">
+        <p className="text-[#202336] text-[22px] font-semibold mb-4">
           Holiday finder
         </p>
         <img src={Line} alt="line img" />
@@ -25,8 +25,8 @@ const HeroSection = () => {
           <div className="border px-4 border-gray-300 focus-within:border-black rounded-[6px] cursor-pointer">
             <select className="pr-32 p-5 outline-none border-none cursor-pointer">
               <option>Activity</option>
-              <option>Location</option>
-              <option>Location</option>
+              <option>Activity</option>
+              <option>Activity</option>
             </select>
           </div>
         </div>
@@ -34,22 +34,22 @@ const HeroSection = () => {
           <div className="border px-4 border-gray-300 focus-within:border-black rounded-[6px] cursor-pointer">
             <select className="pr-32 p-5 outline-none border-none cursor-pointer">
               <option>Grade</option>
-              <option>Location</option>
-              <option>Location</option>
+              <option>Activity</option>
+              <option>Activity</option>
             </select>
           </div>
-          <div className="border px-4 border-gray-300 focus-within:border-black rounded-[6px] cursor-pointer">
+          <div className="border px-4 border-gray-300 focus-within:border-black rounded-[6px] cursor-pointer ms-2">
             <select className="pr-32 p-5 outline-none border-none cursor-pointer">
               <option>Date</option>
-              <option>Location</option>
-              <option>Location</option>
+              <option>Activity</option>
+              <option>Activity</option>
             </select>
           </div>
         </div>
-        <CustomButton text="Explore" width="w-[200px]" />
+        <Button text="Explore" width="w-[200px]" />
       </div>
       <div>
-        <img src={HeroImg} alt="img" />
+        <img src={HeroImg} alt="img" className="w-[680px]" />
       </div>
     </div>
   );

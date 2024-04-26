@@ -1,11 +1,11 @@
-import WorldImage from '../../public/assets/travel.png';
-import CustomButton from './CustomButton'; 
+import WorldImage from '../../src/assets/travel.png';
+import Button from './Button'; 
 
 const MainWorldSection = () => {
   return (
     <div className="flex items-center mb-48">
       <div>
-        <img src={WorldImage} alt="img" className="w-[760px] mr-40" /> 
+        <img src={WorldImage} alt="img" className="w-[660px] mr-40" /> 
       </div>
       <div className="">
         <h1 className="text-3xl font-bold mb-5"> 
@@ -16,7 +16,7 @@ const MainWorldSection = () => {
           when looking to plan and execute their perfect <br /> trip, but now,
           they can also let Lonely Planet Experiences <br /> lead the way
         </p>
-        <CustomButton text="Learn more" /> 
+        <Button text="Learn more" /> 
       </div>
     </div>
   );

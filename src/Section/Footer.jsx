@@ -1,11 +1,11 @@
-import Footer from "../Components/FooterAnd"
+import Footer from "../components/FooterAnd"
 
 const FooterPage = () => {
   return (
     <div className="bg-[#F9F9FB]">
-      <FooterAnd />
+      <Footer />
     </div>
   );
 }
 
-export default Footer
+export default FooterPage

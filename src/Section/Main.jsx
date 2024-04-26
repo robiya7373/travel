@@ -1,8 +1,8 @@
-import Destination from "../Components/Destination"
-import MainWorldSection from "../Components/MainWorldSection"
-import StorySection from "../Components/StorySection"
-import SunnySection from "../Components/SunnySection"
-import StarSection from "../Components/StarSection"
+import Destination from "../components/Destination"
+import MainWorldSection from "../components/MainWorldSection"
+import StorySection from "../components/StorySection"
+import SunnySection from "../components/SunnySection"
+import StarSection from "../components/StarSection"
 
 const Main = () => {
   return (

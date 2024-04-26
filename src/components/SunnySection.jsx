@@ -1,9 +1,9 @@
-import CustomButton from "./CustomButton"; 
-import SunnyImage from "../../public/assets/sunny.png"; 
+import Button from "./Button"; 
+import SunnyImage from "../../src/assets/sunny.png"; 
 const SunnySection = () => { 
   return (
     <div className="flex items-center mb-48 justify-between">
-      <div className="">
+      <div >
         <h1 className="text-[36px] font-bold mb-5">
           Guides by Thousand <br /> Sunny{" "}
         </h1>
@@ -12,10 +12,10 @@ const SunnySection = () => {
           when looking to plan and execute their perfect <br /> trip, but now,
           they can also let Lonely Planet Experiences <br /> lead the way
         </p>
-        <CustomButton text="Download" /> 
+        <Button text="Download" /> 
       </div>
       <div>
-        <img src={SunnyImage} alt="img" className="w-[760px]" /> 
+        <img src={SunnyImage} alt="img" className="w-[640px] mt-40 " /> 
       </div>
     </div>
   );

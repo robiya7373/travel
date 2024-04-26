@@ -1,5 +1,5 @@
-import Nav from "../Components/Nav"
-import HeroSection from "../Components/HeroSection"
+import Nav from "../components/Nav"
+import HeroSection from "../components/HeroSection"
 
 const Header = () => {
   return (

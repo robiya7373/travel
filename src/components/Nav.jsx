@@ -1,6 +1,6 @@
 import React from "react";
-import Logo from "../../public/assets/logoimage.svg";
-import CustomButton from "./CustomButton";
+import Logo from "../../src/assets/logoimage.svg";
+import Button from "./Button";
 
 const Nav = () => {
   const handleLoginClick = () => {};
@@ -26,11 +26,11 @@ const Nav = () => {
           </li>
         </ul>
         <div className="flex items-center gap-6">
-          <CustomButton text="Login" onClick={handleLoginClick} color="blue" />
-          <CustomButton
+          <Button text="Login" onClick={handleLoginClick} color="white"  />
+          <Button
             text="Register"
             onClick={handleRegisterClick}
-            color="green"
+     
           />
         </div>
       </div>
